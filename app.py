@@ -53,6 +53,7 @@ transform = transforms.Compose([
 st.title("🌿 Plant Disease Detector")
 st.write("Upload a leaf image to identify the disease. There are samples avalaible in the github folder 'samples'.")
 st.write("The model can recognize 14 different classes, including both healthy and infected leaves from tomato, potato, and bell pepper plants.")
+st.write("Github Link: https://github.com/notaryaman/Agroscan")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 
