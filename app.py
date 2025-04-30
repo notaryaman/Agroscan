@@ -38,7 +38,7 @@ class DeeperCNN(nn.Module):
 
 device = torch.device("cpu")
 model = DeeperCNN()
-model.load_state_dict(torch.load("c:/users/singh/desktop/plant/plant_disease_classifier2.pth", map_location=device))
+model.load_state_dict(torch.load("plant_disease_classifier2.pth", map_location=device))
 
 model.eval()
 
