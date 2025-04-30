@@ -8,12 +8,21 @@ Model trained on the [PlantVillage dataset](https://www.kaggle.com/datasets/emma
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - **Architecture**: Custom CNN trained from scratch
 - **Input size**: 32×32 RGB images
 - **Output classes**: 14 plant conditions (13 diseases + 1 healthy class)
 - **Framework**: PyTorch
 - **Frontend**: Streamlit app
+
+---
+**[Try the App on Streamlit Cloud](https://agroscan.streamlit.app/)**
+
+## 🔖 Credits
+
+- Dataset: [PlantVillage by Emmarae](https://www.kaggle.com/datasets/emmarex/plantdisease)
+- Model Training: PyTorch
+- UI: Streamlit
 
 ---
