@@ -6,7 +6,7 @@ from PIL import Image
 import json
 
 
-with open("C:/Users/singh/Desktop/plant/class_names.json", "r") as f:
+with open("class_names.json", "r") as f:
     class_names = json.load(f)
 
 
